@@ -1,0 +1,99 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Lab 3</title>
+        <link rel="stylesheet" href="../assets/style.css">
+    </head>
+    <body>
+        <h1 class="lab">Lab 3: Serving your files on GitHub</h1>
+        <div class="lab-intro">
+            <p class="lab-intro">To this point we have been previewing our pages on Cloud9.  GitHub has its own server to simplify this process, but we need to understand how they are interconnected.</p>
+            <p class="lab-intro">In this lab you will confirm that you can host your pages on GitHub, which is the same as what we did yesterday in class.</p>
+            <p class="lab-intro">This lab is intended to give each student an opportunity to make up points that they may have missed in class yesterday.</p>
+            <p class="lab-intro">The <strong>accomplishment</strong> we're going for is that you understand how to work with c9, Git and GitHub. Make sure to take some time to understand what you're doing in each step; you'll be working with these tools all semester (and possibly beyond.)</p>
+            <p class="lab-intro">If at any point you get confused, ask around you for someone who has already completed the assignment.  If that does not help, then bring your computer back to Mr. Berg</p>
+        </div>
+        <div class="lab lab-section lab-materials">
+            <h2>Materials List</h2>
+            <ul>
+                <li>A Cloud9 account</li>
+                <li>A c9 workspace named <code>webdevs2</code></li>
+                <li>A folder in that workspace named <code>labs</code></li>
+                <li>A GitHub account</li>
+            </ul>
+        </div>
+        <div class="lab lab-section lab-instructions">
+            <h2>Instructions</h2>
+            <h3>Part 1: If you have not connected your c9 workspace to your GitHub account go back to the <a href="https://heymrhayes.github.io/it202_spring_2017/labs/2/index.html">previous lab</a></h3>
+            <h3>Part 2: Move your Mobile App Data project into your new workspace (Only do this part if you did not complete it yesterday)</h3>
+            
+            <ol>
+                <li>Create a new folder named "projects" in your webdevs2 c9 workspace, and create a folder named "1" inside that</li>
+                <li>Copy your data app to that projects/1 folder, rename as necessary (index.html)</li>
+                    <ul>
+                        <li>You can either create new files and copy paste the original code</li>
+                        <li>Or you can download the folder and drag and drop from your downloads folder into your new c9 workspace (make sure to rename and organize folders appropriately)</li>
+                    </ul>
+                <li>If your c9 is synced to GitHub appropriately, then you should do the following</li>
+                <ul>
+                    <li>In your c9 IDE, navigate to the bash terminal window; if it's not already open, select Window > New Terminal from the menu.</li>
+                    <li>git add *</li>
+                    <li>git commit -m "adding data app project"</li>
+                    <li>git push origin master</li>
+                    <li>insert your username</li>
+                    <li>insert your password (note: it will not appear that you are typing, but it is recording)</li>
+                    <li>Look at your repo on GitHub and verify that your file(s) have been pushed.</li>
+                </ul>
+                <li>Enable GitHub pages on your repository</li>
+                    <ul>
+                        <li>In your GitHub repository click on settings</li>
+                        <li>Scroll down to find "GitHub Pages"</li>
+                        <li>In the dropdown select "master branch"</li>
+                    </ul>
+                <li>If everything is working properly, navigate to: https://&lt;github account name>.github.io/webdevs2/projects/1/index.html</li>
+                <li>Your Mobile Data App index.html page should display</li>
+                <li>If it does not, ask a neighbor, then Mr. Berg</li>
+            </ol>
+            <h3>Part 3: Apply the same process to a new file</h3>
+            <ol>
+                <li>Create a new file from HTML template named lab3.html inside your labs folder</li>
+                <li>Insert the title of "Lab3: Last Name, First Name"</li>
+                <li>Insert an h1 tag with the same contents of the title</li>
+                <li>Insert a p tag with the contents "Working with GitHub"</li>
+                <li>Push the file to GitHub using the bash terminal window</li>
+                <ul>
+                    <li>git add *</li>
+                    <li>git commit -m "adding data app project"</li>
+                    <li>git push origin master</li>
+                    <li>insert your username</li>
+                    <li>insert your password (note: it will not appear that you are typing, but it is recording)</li>
+                    <li>check to make sure that it has been pushed succesfully to your GitHub account</li>
+                </ul>
+                <li>If everything is working properly, navigate to: https://&lt;github account name>.github.io/webdevs2/labs/lab3.html</li>
+                <li>Your page should load, submit this URL to google classroom</li>
+            </ol>
+            <p>If you finish early, please help your neighbors get to the same point</p>
+        </div>
+        <div class="lab  lab-section lab-resources">
+             <h2>Resources</h2>
+            <dl>
+                <dt>Some Basic UNIX Commands</dt>
+                <dd><a href="https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html">https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html</a></dd>
+              <dt>HTML Validator</dt>
+              <dd><a href="https://validator.w3.org/">https://validator.w3.org/</a></dd>
+              <dt>HTML tag/element reference - w3schools</dt>
+              <dd><a href="http://www.w3schools.com/tags/default.asp">http://www.w3schools.com/tags/default.asp</a></dd>
+                <dt>HTML tag/element reference - MDN</dt>
+                <dd><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a></dd>
+            <dt>Code style guidelines - GitHub</dt>
+            <dd><a href="http://primercss.io/guidelines/#general-formatting">http://primercss.io/guidelines/#general-formatting</a></dd>
+            <dt>Code style guidelines - w3schools</dt>
+            <dd><a href="http://primercss.io/guidelines/#general-formatting">http://primercss.io/guidelines/#general-formatting</a></dd>
+            <dt>Documentation for <code>git add</code></dt>
+            <dd><a href="https://git-scm.com/docs/git-add">https://git-scm.com/docs/git-add</a></dd>
+            <dt>Documentation for <code>git commit</code></dt>
+            <dd><a href="https://git-scm.com/docs/git-commit">https://git-scm.com/docs/git-commit</a></dd>
+            </dl>
+        </div>
+    </body>
+</html>

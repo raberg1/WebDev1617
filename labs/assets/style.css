@@ -1,0 +1,114 @@
+/*
+    styles copied from 
+    http://www.kirupa.com
+*/
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.75;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+    background-color: #FFF;
+}
+
+code {
+    background-color: #DDD;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+p, 
+li,
+dt,
+dd {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.75;
+    color: #585858;
+}
+
+h1 {
+    background-color:  #00205b;
+    color:#FFF;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/*
+    lab sheet styles
+
+*/
+.lab-intro {
+    background-color: #DDD;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    font-size: 1.25em;
+    color: black;
+}
+.lab {
+    border: solid 5px;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+}
+
+h1.lab {
+    border-color: #00205b;
+}
+
+.lab-section {
+    margin-top: 15px;
+}
+
+.lab-intro {
+    border-color: #DDD;
+}
+
+.lab-materials {
+    border-color: #ef3340;
+}
+
+.lab-materials h2 {
+    background-color: #ef3340;
+    color: white;
+    padding: 10px;
+}
+
+.lab-instructions {
+    border-color:  #00b5e2;
+}
+
+.lab-instructions h2 {
+    background-color: #00b5e2;
+    color: white;
+    padding: 10px;
+}
+
+.lab-instructions ol li {
+    margin-bottom: 10px;
+}
+
+.lab-resources {
+    border-color:  #00205b;
+}
+
+.lab-resources h2 {
+    background-color: #00205b;
+    color: white;
+    padding: 10px;
+}
+
+.alert {
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.alert-danger {
+    background-color:#f2dede;
+    color: #a94442;
+}
