@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Web Dev - Lab 6</title>
+        <link rel="stylesheet" href="../assets/style.css" />
+    </head>
+    <body>
+        <h1 class="lab">Lab 6: Basic Service Worker </h1>
+        <div class="lab-intro">
+            <p class="lab-intro">In this lab, you'll get a little practice with Service Workers, enabling off-line capability, and enabling native device integration.
+            </p>    
+            <p>To avoid some problems that can be created by having multiple git repos in the same folder, you won't be cloning the specified branch;  you'll instead be downloading that branch's files and uploading the <code>app</code> folder.</p>
+        </div>
+
+        <div class="lab lab-section lab-instructions">
+             <h2>Instructions</h2>
+            <ol>
+                <li>Work through the CodeLab <strong>Adding a Service Worker and Offline into your Web App</strong> linked below. You'll run into several places you'll need to modify URLs because the CodeLab assumes you're working at the top level of your domain.
+                </li>
+                <li>In Step 2 of the CodeLab, <strong>don't</strong> clone the repo; instead, navigate to the repo page on GitHub (link below), select the <code>code-lab</code> branch, then download and unzip it.</li>
+                <li>Within the unzipped folder, find the folder named <strong>app</strong>.  Upload that to your <strong>labs</strong> folder, and rename the <strong>app</strong> folder as <code>6</code> (so that the app is available at <code>/labs/6/index.html</code>)               </li>
+                  <li>After you've uploaded that folder, continue at Step 5 of the CodeLab.  You can skip the part about checking out the code-lab branch: we avoided that by actually uploading that branch's files. Follow the instructions, paying close attention to path references (you'll need to change many from "root relative" references to "path relative".)  Note the description of what the code is doing, and use the <strong>Application</strong> tab as instructed to check the caching and the status of the service worker.</li>
+                  <li>After making some path reference updates in the <strong>manifest.json</strong> file (and changing <code>/?homescreen=1</code> to <code>./index.html?homescreen=1</code>), open the URL on your phone, add it to your homescreen, and try it out.  Set your phone to Airplane mode and verify that it still works.</li>
+                  <li>Push to GitHub.</li>
+             </ol>
+
+           
+         
+         
+         
+        </div>
+            <div class="lab  lab-section lab-resources">
+             <h2>Resources</h2>
+            <dl>
+              <dt>MDN - Service Worker API</dt>
+              <dd><a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API</a></dd>
+             </dl>
+             <dl>
+              <dt>CodeLab - Adding a Service Worker and Offline into your Web App</dt>
+              <dd><a href="https://codelabs.developers.google.com/codelabs/offline/index.html">https://codelabs.developers.google.com/codelabs/offline/index.html</a></dd>
+             </dl>
+             <dl>
+              <dt>GitHub repo for Airhorner</dt>
+              <dd><a href="https://github.com/GoogleChrome/airhorn">https://github.com/GoogleChrome/airhorn</a></dd>
+             </dl>             
+             
+             
+        </div>
+    </body>
+</html>
